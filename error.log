@@ -1,0 +1,16 @@
+[19-Aug-2016 03:57:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function jsondecode() in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php:117
+Stack trace:
+#0 /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php(65): resolve_user('115612888779103...', Array, 'QUICK_REPLY')
+#1 /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php(35): handle_quick_reply('115612888779103...', Array, 'QUICK_REPLY')
+#2 {main}
+  thrown in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php on line 117
+[20-Aug-2016 16:04:51 Europe/Berlin] PHP Notice:  Undefined index: hub_challenge in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php on line 10
+[20-Aug-2016 16:04:51 Europe/Berlin] PHP Notice:  Undefined index: hub_verify_token in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php on line 11
+[20-Aug-2016 16:04:51 Europe/Berlin] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php on line 31
+[20-Aug-2016 16:04:51 Europe/Berlin] PHP Warning:  preg_match(): No ending delimiter '^' found in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php on line 56
+[20-Aug-2016 16:05:16 Europe/Berlin] PHP Warning:  preg_match(): No ending delimiter '^' found in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php on line 56
+[20-Aug-2016 16:08:05 Europe/Berlin] PHP Warning:  preg_match(): Unknown modifier 'g' in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php on line 56
+[20-Aug-2016 16:11:24 Europe/Berlin] PHP Warning:  preg_match(): No ending delimiter '/' found in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php on line 56
+[20-Aug-2016 16:35:13 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '/' found in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_message.php on line 57
+[20-Aug-2016 16:56:19 Europe/Berlin] PHP Notice:  Array to string conversion in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_helper.php on line 178
+[20-Aug-2016 22:18:55 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/bin/mamp/hvbn/php_dev/wh_dashboard.php on line 30
